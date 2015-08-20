@@ -3,28 +3,28 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 迷失
 subtitle:
 description:
-author: John Doe
+author: 迷失
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://localhost:8080
+url: http://localhost:8080/
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :year-:month/:title.html
 permalink_defaults:
 
 # Directory
 source_dir: source
-public_dir: ../apache-tomcat-8.0.24/webapps/ROOT
+public_dir: ../apache-tomcat-8.0.24/webapps/ROOT/
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
-i18n_dir: :zh-CN
+i18n_dir: lang
 skip_render:
 
 # Writing
@@ -32,7 +32,7 @@ new_post_name: :title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
-filename_case: 0
+filename_case: 1
 render_drafts: false
 post_asset_folder: false
 relative_link: false
